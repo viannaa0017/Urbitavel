@@ -1,0 +1,527 @@
+.container {
+   display: flex; 
+   width: 1318px;
+   font-family: "Epilogue", monospace;
+}
+
+header {
+    background-color: #2C4928;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+}
+
+header .container .container .logo img {
+    margin-left: 100px;
+}
+
+header .grupamento1 {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+header .parte1 {
+    display: flex;
+    gap: 25px;
+    margin-left: 80px;
+}
+
+header .parte2 {
+    display: flex;
+    gap: 25px;
+    margin-right: 50px;
+}
+
+header .grupamento1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+header .grupamento1 .parte2 a {
+    color: #847D7D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header .grupamento1 .parte2 .patreon {
+    color: white;
+    background-color: #16280D;
+    border-radius: 57px;
+    width: 129px;
+    height: 42px;
+}
+
+#primeira img {
+    width: 100%;
+}
+
+#segunda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -500px;
+}
+
+
+#segunda .container {
+    background-color: white;
+    border-radius: 28px;
+    box-shadow: 0px 1px 2px;
+}
+
+#segunda .urbitavel {
+    padding: 80px
+}
+
+#segunda .urbitavel h2 {
+    color: #678363;
+    font-size: 48px;
+}
+
+#segunda .urbitavel p {
+    font-size: 15px;
+}
+ 
+#segunda .lixeiras img {
+    padding: 100px;
+}
+
+#terceira {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+#terceira .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#terceira .bloco2 {
+    margin-top: 60px;
+    max-width: 536px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+}
+
+#terceira .bloco1 h3 {
+    text-align: center;
+}
+
+#terceira .bloco1 h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+#terceira .bloco2 button {
+    margin-top: 40px;
+    width: 177px;
+    border-radius: 5px;
+    background-color: #3B4E920D
+ }
+
+#gray {
+    background-color: #BEBEBE;
+    margin-bottom: -20px;
+}
+
+footer {
+    margin: auto;
+}
+
+ footer .foot {
+    background-image: url(../img/Reci.png);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+ }   
+
+ footer .foot1 textarea {
+    width: 281px;
+    height: 26px;
+    border: 1px black;
+ }
+
+ footer .foot1 button {
+    width: 192px;
+    height: 33px;
+    border-radius: 6px;
+    border: 1px black;
+    border-color: #3B4E9200;
+    margin-top: 30px;
+ }
+
+ footer .foot1 h3 {
+    font-size: 24px;
+    color: #484545;
+    font-weight: bold
+ }
+
+ footer .foot1 p {
+    font-size: 20px;
+    color: #484545;
+    font-weight: bold
+ }
+
+ footer .foot2 {
+    background-color: #58774C;
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+ }
+
+ footer .foot2 p {
+    font-size: 14px;
+    color: #FFFFFF;
+ }
+
+ /*CSS REFERENTE A PAGINA SOBRE NOS*/
+
+#sobrenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+ }
+
+ #sobrenos .room { 
+    width: 676px;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 28px;
+    box-shadow: 0px 1px 2px;
+    margin-top: -500px;
+    padding: 40px;
+ }
+
+ #sobrenos .sobre {
+    margin-bottom: 40px;
+ }
+
+ #sobrenos .sobre h2  {
+    color: #678363;
+    font-size: 48px;
+    font-family: "Epilogue", monospace;
+ }
+
+#sobrenos .textum {
+    width: 415px;
+    margin: auto;
+    text-align: start;
+}
+    
+#sobrenos .textum p {
+    font-size: 15px;
+    color: #484545;
+}    
+
+#grey {
+    background-color: #BEBEBE;
+    margin-bottom: -20px;
+}
+ 
+/*CSS PAGINA POR TRAS*/
+
+#conse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+}
+
+#conse .container {
+    background-color: white;
+    border-radius: 28px;
+    box-shadow: 0px 1px 2px;
+    display: flex;
+    justify-content: center;
+    width: 676px;
+    height: 264px;
+    align-items: center;
+}
+
+#conse p {
+    color: #484545;
+    size: 5cm;
+    padding: 45px;
+    justify-content: start;
+    width: 532px;
+    line-height: 30px
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#list ul {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    
+}
+
+#list .border {
+    width: 1216px;
+}
+
+#list ul li {
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 30px;
+    width: 282px;
+    height: 112px;
+}
+
+#list ul li img {
+    padding: 10px;
+}
+
+#context {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#context .base {
+    width: 430px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 150px;
+    height: 430px;
+}
+
+#context .base p {
+    font-size: 15px;
+}
+
+footer .foot2 {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+footer .foot2 img {
+    margin-left: 20px;
+}
+
+footer .foot2 p {
+    width: 80%;
+}
+
+
+/*css da pagina PRIVACIDADE */
+
+#politica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#politica .block {
+    width: 676px;
+    height: 131px;
+    background-color: white;
+    border-radius: 28px;
+    box-shadow: 0px 1px 2px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: -65px;
+    margin-bottom: 80px;
+}
+
+#politica .block h3 {
+    font-size: 24px;
+    color: #678363;
+}
+
+#polpriv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#polpriv .frame {
+    width: 459px;
+    margin-bottom: 100px;
+}
+
+#polpriv .frame p {
+    color: black;
+    size: 12px;
+}
+
+/*CSS DA PAGINA FALE CONOSCO*/
+
+.container4 {
+    display: flex;
+    justify-content: center;
+}
+
+.container4 #box {
+    background-color: #f4f9f3;
+    box-shadow: 0px 4px 4px 0px #00000025;
+    border-radius: 35px;
+    margin-top: -400px;
+    width: 676px;
+    padding: 75px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.container4 #box h2 {
+    color: #678363;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.container4 #box .paragrafo {
+    color: #484545;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.container4 #box .info {
+    width: 304px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 75px;
+}
+
+.container4 #box .info input {
+    width: 304px;
+    height: 32px;
+}
+
+.container4 #box h3 {
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.container4 #box .duvida {
+    text-align: left;   
+    margin-bottom: 80px;
+}
+
+.container4 #box .duvida textarea {
+    width: 559px;
+    height: 277px;
+}
+
+.container4 button {
+    width: 90px;
+    height: 38px;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: flex-start;
+}
+
+.container4 .ajuste {
+    display: flex;
+    justify-content: start;
+}
+
+/*CSS DA PAGINA APOIE*/
+
+#donation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 400px;
+}
+
+#donation .flexbox {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px 0px #00000025;
+    border-radius: 35px;
+    padding: 20px 50px;
+    margin-top: -170px;
+    font-family: "Epilogue", monospace;
+}
+
+#donation .precisamos {
+    width: 394px;
+    height: 52px;
+}
+
+#donation .doacao h3 {
+    color: black;
+    font-size: 36px; 
+    font-weight: 400; 
+}
+
+#donation .dinheiro {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#donation .dinheiro input{
+    border-radius: 26px;
+    background-color: rgb(221, 220, 220);
+    width: 208px;
+    height: 83px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+#donation .clickbutton {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#donation  .clickbutton  button {
+    background-color: rgb(221, 220, 220);
+    border-radius: 36px;
+    height: 50px;    
+    width: 184px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+ }
